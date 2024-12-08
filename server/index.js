@@ -13,7 +13,7 @@ const db = new pg.Client({
     user:"postgres",
     host:"localhost",
     database:"Task_Tracker",
-    password:"admin",
+    password:"****",
     port:5432
 });
 export default db;
