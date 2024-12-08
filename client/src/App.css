@@ -1,0 +1,43 @@
+
+.outerBox{
+  /* background-color:light-dark( rgb(178, 98, 98), black); */
+  background-color: #bbdefb;
+  background-image: url("https://www.transparenttextures.com/patterns/argyle.png");
+  margin: 0;
+  min-height:100vh;
+}
+
+.navLinks{
+    display: flex;
+    gap: 100px;
+    justify-content:center;
+    align-items: center;
+    margin: 0;
+    padding: 3vh;
+    font-size: large;
+    list-style: none;
+    flex-wrap: nowrap;
+    background-color: light-dark(#3585db, black);
+}
+
+.nav{
+  display: grid;
+  grid-template-columns: 0.999fr 0.04fr;
+  /* margin: ; */
+  background-color: light-dark(#3585db, black);;
+}
+.nav div.darkmode{
+  margin: 3vh 3vh;
+  background-color: light-dark(#3585db, black);
+}
+.nav .darkmode button{
+  background-color: light-dark(#3585db, black);
+  /* border: 0px; */
+  border-color: #2d72bcaf;
+  border-radius: 20%;
+}
+
+.tasklist{
+  padding-bottom: 20px;
+  /* margin-bottom: 20px; */
+}
